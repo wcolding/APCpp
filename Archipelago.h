@@ -151,6 +151,8 @@ int AP_GetRoomInfo(AP_RoomInfo*);
 AP_ConnectionStatus AP_GetConnectionStatus();
 int AP_GetUUID();
 int AP_GetPlayerID();
+std::string AP_GetPlayerName();
+std::string AP_GetSeedName();
 
 /* Serverside Data Types */
 

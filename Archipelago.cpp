@@ -416,6 +416,14 @@ int AP_GetPlayerID() {
     return ap_player_id;
 }
 
+std::string AP_GetPlayerName() {
+    return ap_player_name;
+}
+
+std::string AP_GetSeedName() {
+    return lib_room_info.seed_name;
+}
+
 void AP_SetServerData(AP_SetServerDataRequest* request) {
     request->status = AP_RequestStatus::Pending;
 
